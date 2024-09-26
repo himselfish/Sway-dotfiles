@@ -1,6 +1,6 @@
-# Welcome to the .dotfiles of my Archlinux Sway setup
+# Welcome to the .dotfiles of my Archlinux Gruvbox themed Sway setup
 
-After using a combination of various other dotfiles from generous people on Github, combined with my own adjustments, I decided to share my current setup too. Also, many thanks to the kind internetstrangers at r/unixporn for their wonderful creations.
+After using a combination of various other dotfiles from generous people on Github, combined with my own adjustments, I decided to share my current setup too. Also, many thanks to the kind internetstrangers at <A HREF="https://www.reddit.com/r/unixporn/">r/unixporn</A> for their wonderful creations.
 I'm running Archlinux with Sway as my window manager. I used the "gruvbox" colors as much as possible.
 
 This repository contains my dotfiles in a .tar file which you can extract to your ~/.config folder.
