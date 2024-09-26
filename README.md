@@ -8,3 +8,8 @@ This repository contains my dotfiles in a .tar file which you can extract to you
 I also added a file called packages.txt containing all the packages I currently have installed.  If I ever break my system it can be a useful list to have.
 
 # Show me!
+Clean:
+![Clean desktop.](https://github.com/himselfish/dotfiles/blob/main/desktop_clean.png)
+
+Busy:
+![Busy desktop.](https://github.com/himselfish/dotfiles/blob/main/desktop_fake_busy.png)
