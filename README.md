@@ -27,6 +27,20 @@ I also added a file called packages.txt containing all the packages I currently 
 > $mod+v = split vertically
 > 
 > $mod+b = split horizontally
+>
+> prtsc = sway-interactive-screenshot
+>
+> $mod + prtsc = sway-interactive-screenshot --video
+>
+> $mod+s = layout stacking
+>
+> $mod+e = layout split
+>
+> $mod+w = layout tabbed
+>
+> $mod+f = full screen
+>
+> $mod+Shift+Space = toggle floating
 
 Because I use an AZERTY keyboard layout I had to use 'wev' to find out how keypresses are handled.  That's why you will see lines like ```bindsym $mod+ampersand workspace number 1``` and ```bindsym $mod+eacute workspace number 2``` etc in the .config/sway/config file.
 
