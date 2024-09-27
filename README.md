@@ -17,6 +17,8 @@ I also added a file called packages.txt containing all the packages I currently 
 > $mod+t = Thunar
 > 
 > $mod+m = g4music
+>
+> $mod+c = firefox
 > 
 > $mod+q = kill
 > 
