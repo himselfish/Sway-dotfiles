@@ -26,6 +26,9 @@ I also added a file called packages.txt containing all the packages I currently 
 > 
 > $mod+b = split horizontally
 
+Because I use a AZERTY keyboard I had to use 'wev' to find out how keypresses are handled.  That's why you will see lines like ```bindsym $mod+ampersand workspace number 1``` and ```bindsym $mod+eacute workspace number 2``` etc in the .config/sway/config file.
+
+
 # Show me!
 Clean:
 ![Clean desktop.](https://github.com/himselfish/dotfiles/blob/main/desktop_clean.png)
