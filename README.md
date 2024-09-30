@@ -43,7 +43,13 @@ I also added a file called packages.txt containing all the packages I currently 
 > $mod+Shift+Space = toggle floating
 
 Because I use an AZERTY keyboard layout I had to use 'wev' to find out how keypresses are handled.  That's why you will see lines like ```bindsym $mod+ampersand workspace number 1``` and ```bindsym $mod+eacute workspace number 2``` etc in the .config/sway/config file.
+Use 'wev' to find out how keys are "called".
 
+# Scratchpad
+One of the best features of tiling window managers is scratchpad.  I'm not going to explain in details what it is but here are the keybinds that will make your life a whole lot easier.
+Move to scratchpad : ```bindsym $mod+Shift+minus move scratchpad```
+Toggle between windows in scratchpad : ```bindsym $mod+minus scratchpad show```
+And my absolute favorite is the Quake-style terminal : ```bindsym $mod+Ctrl+Return exec --no-startup-id "sway-scratchpad -tmt -atc foot fish"```. Pressing $mod+Ctrl+Return again will hide your terminal.  
 
 # Show me!
 Clean:
