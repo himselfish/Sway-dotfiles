@@ -5,7 +5,7 @@ I'm running Archlinux with Sway as my window manager. I used the "gruvbox" color
 <BR />
 This repository contains my dotfiles in a .tar file which you can extract to your ~/.config folder.<BR />
 <BR />
-I also added a file called packages.txt containing all the packages I currently have installed.  If I ever break my system it can be a useful list to have.
+I also added a file called packages.txt containing all the packages I currently have installed.  If I ever break my system it can be a useful list to have.  You probably don't need all those packages.
 
 # Important keyboard shortcuts
 > $mod = Mod4 (Windows key)
