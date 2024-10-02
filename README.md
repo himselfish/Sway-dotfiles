@@ -18,7 +18,7 @@ I also added a file called packages.txt containing all the packages I currently 
 | $mod+m | g4music |
 | $mod+c | Firefox |
 | $mod+q | Kill |
-| $mod+r | Resize (use arrow keys, then press ENTER or ESC) |
+| $mod+r | Resize mode (use arrow keys to resize, then press ENTER or ESC) |
 | $mod+v | Split vertically |
 | $mod+b | Split horizontally | 
 | prtsc | Sway-interactive-screenshot |
