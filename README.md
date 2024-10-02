@@ -8,39 +8,26 @@ This repository contains my dotfiles in a .tar file which you can extract to you
 I also added a file called packages.txt containing all the packages I currently have installed.  If I ever break my system it can be a useful list to have.  You probably don't need all those packages.
 
 # Important keyboard shortcuts
-> $mod = Mod4 (Windows key)
-> 
-> $mod+d = rofi
-> 
-> $mod+Enter = foot
-> 
-> $mod+t = Thunar
-> 
-> $mod+m = g4music
->
-> $mod+c = firefox
-> 
-> $mod+q = kill
-> 
-> $mod+r = resize
-> 
-> $mod+v = split vertically
-> 
-> $mod+b = split horizontally
->
-> prtsc = sway-interactive-screenshot
->
-> $mod + prtsc = sway-interactive-screenshot --video
->
-> $mod+s = layout stacking
->
-> $mod+e = layout split
->
-> $mod+w = layout tabbed
->
-> $mod+f = full screen
->
-> $mod+Shift+Space = toggle floating
+
+| Key(s) | Description |
+| --- | --- |
+| $mod | Mod4 (Windows key) |
+| $mod+d | Rofi |
+| $mod+Enter | foot terminal |
+| $mod+t | Thunar |
+| $mod+m | g4music |
+| $mod+c | Firefox |
+| $mod+q | Kill |
+| $mod+r | Resize (use arrow keys, then press ENTER or ESC) |
+| $mod+v | Split vertically |
+| $mod+b | Split horizontally | 
+| prtsc | sway-interactive-screenshot |
+| $mod + prtsc | sway-interactive-screenshot --video |
+| $mod+s | layout stacking |
+| $mod+e | layout split |
+| $mod+w | layout tabbed |
+| $mod+f | full screen |
+| $mod+Shift+Space | toggle floating |
 
 Because I use an AZERTY keyboard layout I had to use ```wev``` to find out how keypresses are handled.  That's why you will see lines like ```bindsym $mod+ampersand workspace number 1``` and ```bindsym $mod+eacute workspace number 2``` etc in the .config/sway/config file.<BR />
 
