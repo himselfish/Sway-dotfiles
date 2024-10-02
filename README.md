@@ -51,6 +51,10 @@ Move to scratchpad : ```bindsym $mod+Shift+minus move scratchpad```<BR />
 Toggle between windows in scratchpad : ```bindsym $mod+minus scratchpad show```<BR />
 And my absolute favorite is the Quake-style terminal : ```bindsym $mod+Ctrl+Return exec --no-startup-id "sway-scratchpad -tmt -atc foot fish"```. Pressing $mod+Ctrl+Return again will hide your terminal.  <BR />
 
+# Automatic Timeshift backups
+Timeshift is a very useful tool to automatically create backups of your device.   It can be installed from AUR (```extra/timeshift 24.06.3-1 ``` at the time of writing).  To launch it in Sway enter ```sudo -E timeshift-gtk```. <BR />
+Archlinux does come with cronie installed by default, but it's not started at boot.  Enter ```sudo systemctl enable --now cronie && systemctl enable --now cronie.service```.  Timeshift will now create automatic backups based on your prferences.  This can be daily, hourly, at boot,...  Yes, I'm well aware of the pacman hooks that allow for btrfs snapshots before updating too.  I just prefer this method.<BR />
+
 # Show me!
 Clean:
 ![Clean desktop.](https://github.com/himselfish/dotfiles/blob/main/desktop_clean.png)
