@@ -12,6 +12,12 @@ I also added a file called packages.txt containing all the packages I currently 
 | Key(s) | Description |
 | --- | --- |
 | $mod | Mod4 (Windows key) |
+| $mod+Left | Focus left |
+| $mod+Right | Focus right |
+| $mod+Down | Focus down |
+| $mod+Up | Focus up |
+| $mod+(1...9) | Switch to workspace (1...9) |
+| $mod+Shift+(1...9) | Move window to workspace (1...9) |
 | $mod+d | Rofi |
 | $mod+Enter | foot terminal |
 | $mod+t | Thunar |
@@ -28,6 +34,8 @@ I also added a file called packages.txt containing all the packages I currently 
 | $mod+w | Layout tabbed |
 | $mod+f | Full screen |
 | $mod+Shift+Space | Toggle floating |
+
+If your keyboard has multimedia keys such as play/pause, next, previous or volume keys they should work too.
 
 Because I use an AZERTY keyboard layout I had to use ```wev``` to find out how keypresses are handled.  That's why you will see lines like ```bindsym $mod+ampersand workspace number 1``` and ```bindsym $mod+eacute workspace number 2``` etc in the .config/sway/config file.<BR />
 
