@@ -4,7 +4,7 @@ From https://swaywm.org: _Sway is a tiling Wayland compositor and a drop-in repl
 Sway allows you to arrange your application windows logically, rather than spatially. Windows are arranged into a grid by default which maximizes the efficiency of your screen and can be quickly manipulated using only the keyboard._
 
 After using a combination of various other dotfiles from generous people on Github, combined with my own adjustments, I decided to share my current setup too. Also, many thanks to the kind internetstrangers at <A HREF="https://www.reddit.com/r/unixporn/">r/unixporn</A> for their wonderful creations.<BR />
-I'm running Archlinux with Sway as my window manager. I used the "gruvbox" colors as much as possible.  Rofi is used as an application launcher.<BR />
+I'm running Archlinux with Sway as my window manager. I used the "gruvbox" colors as much as possible.  Rofi is used as an application launcher.  Waybar is the bar on top.<BR />
 <BR />
 This repository contains my dotfiles in a .tar file which you can extract to your ~/.config folder.<BR />
 <BR />
