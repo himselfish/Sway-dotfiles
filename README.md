@@ -8,7 +8,6 @@ From https://github.com/WillPower3309/swayfx : _Sway is an incredible window man
 - _Dim unfocused windows_
 - _Per application saturation control: Allows the user to set the saturation (Digital Vibrance) for specific applications. Great for some FPS games!_
 - _Scratchpad treated as minimize: Allows docks, or panels with a taskbar, to correctly interpret minimize / unminimize requests_
-![SwayFX logo.](https://raw.githubusercontent.com/WillPower3309/swayfx/ef08085153408b7afe0154613496586fe2ffd2fe/assets/swayfx_logo.svg)
 
 
 After using a combination of various other dotfiles from generous people on Github, combined with my own adjustments, I decided to share my current setup too.<BR />
