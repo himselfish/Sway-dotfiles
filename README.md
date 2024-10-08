@@ -1,7 +1,14 @@
 # Welcome to the .dotfiles of my Archlinux Gruvbox themed SwayFX setup
 
-From https://swaywm.org : _"Sway is a tiling Wayland compositor and a drop-in replacement for the i3 window manager for X11. It works with your existing i3 configuration and supports most of i3's features, plus a few extras.
-Sway allows you to arrange your application windows logically, rather than spatially. Windows are arranged into a grid by default which maximizes the efficiency of your screen and can be quickly manipulated using only the keyboard."_
+From https://github.com/WillPower3309/swayfx : _Sway is an incredible window manager, and certainly one of the most well established wayland window managers. However, it is restricted to only include the functionality that existed in i3. This fork ditches the simple wlr_renderer, and replaces it with our fx_renderer, capable of rendering with fancy GLES2 effects. This, along with a couple of minor changes, expands sway's featureset to include the following:_
+
+- _Blur_
+- _Anti-aliased rounded corners, borders, and titlebars_
+- _Shadows_
+- _Dim unfocused windows_
+- _Per application saturation control: Allows the user to set the saturation (Digital Vibrance) for specific applications. Great for some FPS games!_
+- _Scratchpad treated as minimize: Allows docks, or panels with a taskbar, to correctly interpret minimize / unminimize requests_
+
 
 After using a combination of various other dotfiles from generous people on Github, combined with my own adjustments, I decided to share my current setup too.<BR />
 I'm running Archlinux with SwayFX as my window manager. I used the "gruvbox" colors as much as possible.  Rofi is used as an application launcher.  Waybar is the bar on top.<BR />
