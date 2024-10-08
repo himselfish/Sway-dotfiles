@@ -1,10 +1,10 @@
-# Welcome to the .dotfiles of my Archlinux Gruvbox themed Sway setup
+# Welcome to the .dotfiles of my Archlinux Gruvbox themed SwayFX setup
 
 From https://swaywm.org : _"Sway is a tiling Wayland compositor and a drop-in replacement for the i3 window manager for X11. It works with your existing i3 configuration and supports most of i3's features, plus a few extras.
 Sway allows you to arrange your application windows logically, rather than spatially. Windows are arranged into a grid by default which maximizes the efficiency of your screen and can be quickly manipulated using only the keyboard."_
 
 After using a combination of various other dotfiles from generous people on Github, combined with my own adjustments, I decided to share my current setup too.<BR />
-I'm running Archlinux with Sway as my window manager. I used the "gruvbox" colors as much as possible.  Rofi is used as an application launcher.  Waybar is the bar on top.<BR />
+I'm running Archlinux with SwayFX as my window manager. I used the "gruvbox" colors as much as possible.  Rofi is used as an application launcher.  Waybar is the bar on top.<BR />
 <BR />
 This repository contains my dotfiles in a .tar file which you can extract to your ~/.config folder.<BR />
 <BR />
